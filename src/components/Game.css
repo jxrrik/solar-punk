@@ -1,0 +1,26 @@
+/* Garantir que o body e o html ocupem 100% da tela */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  background-color: #333;
+}
+
+/* O contêiner do jogo ocupa 100% da tela */
+.game {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green; /* Fundo do jogo */
+}
+
+/* O mapa ocupa 100% do contêiner do jogo */
+.map {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
